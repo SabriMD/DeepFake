@@ -1,8 +1,4 @@
 # Deepfake Detection System - Competition Submission 🏆
-
-**Competition:** Detecting GenAI & Sophisticated Manipulation in Public Media  
-**MenaML Winter School 2026**
-
 ## 📋 Overview
 
 This system combines two complementary detection modules:
@@ -186,72 +182,6 @@ Frame Replication: 1 → 13 frames (for video model)
 - ✅ **Explainability:** Natural language reasoning
 - ✅ **Command Line Interface:** Standard format
 
----
 
-## 🐛 Troubleshooting
 
-### Common Issues
 
-**1. CUDA Out of Memory**
-```bash
-# Use CPU instead
-python predict.py --input_dir /test_images --device cpu
-
-# Or use lightweight VLM
-python predict.py --input_dir /test_images --lightweight
-```
-
-**2. VLM Not Loading**
-```bash
-# The system will automatically fall back to heuristic analysis
-# Check transformers version: pip install transformers>=4.30.0
-```
-
-**3. Checkpoint Not Found**
-```bash
-# Ensure checkpoint path is correct
-python predict.py --checkpoint /path/to/checkpoint.ckpt --input_dir /test_images
-```
-
----
-
-## 📝 Citation
-
-If you use this code, please cite:
-
-```bibtex
-@misc{deepfake_detection_2026,
-  title={Dual-Module Deepfake Detection System},
-  author={[Your Team Name]},
-  year={2026},
-  howpublished={MenaML Winter School Competition}
-}
-```
-
----
-
-## 👥 Team Information
-
-**Team Name:** [Your Team Name]  
-**Members:**
-1. [Member 1 Name]
-2. [Member 2 Name]
-3. [Member 3 Name]
-
-**Affiliation:** MenaML Winter School 2026
-
----
-
-## 📧 Contact
-
-For questions or issues, please contact: [your-email@example.com]
-
----
-
-## 📄 License
-
-This project is submitted for the MenaML Winter School 2026 Competition.
-
----
-
-**Last Updated:** January 28, 2026
