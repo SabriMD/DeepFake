@@ -1,0 +1,35 @@
+# Core Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+pytorch-lightning>=2.0.0
+
+# Video Processing (for Module 1)
+pytorchvideo>=0.1.5
+
+# Vision-Language Models (for Module 2)
+transformers>=4.30.0
+accelerate>=0.20.0
+sentencepiece>=0.1.99
+protobuf>=3.20.0
+
+# Image Processing
+Pillow>=9.0.0
+opencv-python>=4.7.0
+
+# Scientific Computing
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Metrics & Evaluation
+scikit-learn>=1.2.0
+torchmetrics>=0.11.0
+
+# Data Processing
+pandas>=2.0.0
+
+# Progress & Utilities
+tqdm>=4.65.0
+
+# Optional: For better VLM performance
+# bitsandbytes>=0.40.0  # For 8-bit quantization
+# einops>=0.6.1  # For attention mechanisms
