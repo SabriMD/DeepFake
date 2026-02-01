@@ -109,16 +109,6 @@ Before submitting, verify:
 - [ ] Hugging Face repo is public
 - [ ] Submission form completed
 
----
-
-## 📧 Support
-
-**Deadline:** Wednesday, 28/01/2026 at 2:00 PM Riyadh time
-
-**Submission Form:** https://forms.office.com/r/864ac0pUAC
-
----
-
 ## 🎯 Key Features of Your Solution
 
 ✅ **Module 1:** Forensic detector (F1=0.9314)  
