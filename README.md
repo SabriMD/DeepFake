@@ -1,4 +1,4 @@
-# Deepfake Detection System - Competition Submission 🏆
+# Deepfake Detection System🏆
 ## 📋 Overview
 
 This system combines two complementary detection modules:
